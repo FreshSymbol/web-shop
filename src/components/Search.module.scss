@@ -1,0 +1,14 @@
+.input {
+  min-width: 200px;
+  max-height: 50px;
+  padding: 8px 15px;
+  font-size: 16px;
+  border: 1px solid rgba($color: #000000, $alpha: 0.2);
+  border-radius: 10px;
+  transition: min-width 0.3s ease-in-out;
+
+  &:focus {
+    border: 1px solid rgba($color: #000000, $alpha: 0.4);
+    min-width: 350px;
+  }
+}
